@@ -7,7 +7,7 @@
         <clobbers target="UnityAR" />
     </js-module>
 
-
+    <dependency id="cordova.plugin.trapeze" url="https://github.com/Product-League/plus-cordova-plugin-trapeze.git"/>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="UnityAR">
